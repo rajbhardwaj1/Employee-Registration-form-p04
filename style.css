@@ -1,0 +1,30 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(186, 212, 241);
+}
+html{
+    font-size: 16px;
+}
+table,td{
+    border: 1px solid rgb(2, 169, 190);
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+tr{
+    height: 32px;
+}
+caption{
+    background-color: white;
+    font: bold;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+@media (max-width: 600px) {
+    html {
+        font-size: 0.7rem;
+    }
+}
